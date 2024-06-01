@@ -16,6 +16,10 @@
 		DB6C482C2BFEE5F4009E42D1 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C482B2BFEE5F4009E42D1 /* Badge.swift */; };
 		DB6CF4962C02C2BD009924F7 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CF4952C02C2BD009924F7 /* CategoryRow.swift */; };
 		DB6CF4982C02C58C009924F7 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CF4972C02C58B009924F7 /* CategoryItem.swift */; };
+		DB6D4B8D2C0BA0A700689C85 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D4B8C2C0BA0A700689C85 /* PageViewController.swift */; };
+		DB6D4B8F2C0BA26800689C85 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D4B8E2C0BA26800689C85 /* FeatureCard.swift */; };
+		DB6D4B912C0BA41400689C85 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D4B902C0BA41400689C85 /* PageView.swift */; };
+		DB6D4B932C0BAB5700689C85 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D4B922C0BAB5700689C85 /* PageControl.swift */; };
 		DB8D833B2BC3960000D415F3 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D833A2BC3960000D415F3 /* FavoriteButton.swift */; };
 		DB9D18F22C01745100516B46 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB9D18F12C01745100516B46 /* hikeData.json */; };
 		DB9D18F52C0174EE00516B46 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D18F42C0174EE00516B46 /* Hike.swift */; };
@@ -51,6 +55,10 @@
 		DB6C482B2BFEE5F4009E42D1 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		DB6CF4952C02C2BD009924F7 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		DB6CF4972C02C58B009924F7 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		DB6D4B8C2C0BA0A700689C85 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		DB6D4B8E2C0BA26800689C85 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		DB6D4B902C0BA41400689C85 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		DB6D4B922C0BAB5700689C85 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		DB8D833A2BC3960000D415F3 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		DB9D18F12C01745100516B46 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		DB9D18F42C0174EE00516B46 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
@@ -100,6 +108,17 @@
 			path = Badges;
 			sourceTree = "<group>";
 		};
+		DB6D4B8B2C0BA06E00689C85 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				DB6D4B8C2C0BA0A700689C85 /* PageViewController.swift */,
+				DB6D4B8E2C0BA26800689C85 /* FeatureCard.swift */,
+				DB6D4B902C0BA41400689C85 /* PageView.swift */,
+				DB6D4B922C0BAB5700689C85 /* PageControl.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		DB8D833C2BC397D100D415F3 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				DBBAB9B02BBCFE43006F1469 /* ContentView.swift */,
+				DB6D4B8B2C0BA06E00689C85 /* PageView */,
 				DBE5E24C2C0ABDA8006BDF0E /* Profiles  */,
 				DB9D19002C017C9D00516B46 /* Categories */,
 				DB9D18F32C01748700516B46 /* Hikes */,
@@ -299,11 +319,13 @@
 				DBE5E24B2C0ABD55006BDF0E /* Profile.swift in Sources */,
 				DBBAB9B12BBCFE43006F1469 /* ContentView.swift in Sources */,
 				DB9D19022C017CBB00516B46 /* CategoryHome.swift in Sources */,
+				DB6D4B8F2C0BA26800689C85 /* FeatureCard.swift in Sources */,
 				DB9D18FB2C01779300516B46 /* HikeGraph.swift in Sources */,
 				DB6C482C2BFEE5F4009E42D1 /* Badge.swift in Sources */,
 				DB5B32C52BBE3B7200B02E0E /* MapView.swift in Sources */,
 				DBBAB9AF2BBCFE43006F1469 /* LandmarksApp.swift in Sources */,
 				DB8D833B2BC3960000D415F3 /* FavoriteButton.swift in Sources */,
+				DB6D4B932C0BAB5700689C85 /* PageControl.swift in Sources */,
 				DB9D18F92C0176E000516B46 /* HikeView.swift in Sources */,
 				DB6CF4982C02C58C009924F7 /* CategoryItem.swift in Sources */,
 				DB6C48242BFEE206009E42D1 /* HexagonParameters.swift in Sources */,
@@ -312,11 +334,13 @@
 				DBE5E24E2C0ABDDD006BDF0E /* ProfileHost.swift in Sources */,
 				DB6C482A2BFEE5B2009E42D1 /* RotatedBadgeSymbol.swift in Sources */,
 				DB6C48282BFEE517009E42D1 /* BadgeSymbol.swift in Sources */,
+				DB6D4B912C0BA41400689C85 /* PageView.swift in Sources */,
 				DBA9A0752BC0DDB2007DF226 /* LandmarkList.swift in Sources */,
 				DBE5E2542C0AC52A006BDF0E /* ProfileEditor.swift in Sources */,
 				DBA9A0772BC0E15B007DF226 /* LandmarkDetail.swift in Sources */,
 				DB6C48262BFEE321009E42D1 /* BadgeBackground.swift in Sources */,
 				DB5B32C32BBE390500B02E0E /* CircleImage.swift in Sources */,
+				DB6D4B8D2C0BA0A700689C85 /* PageViewController.swift in Sources */,
 				DBA9A06C2BC0CFA7007DF226 /* Landmark.swift in Sources */,
 				DBE5E2522C0ABFC8006BDF0E /* HikeBadge.swift in Sources */,
 				DBA9A0732BC0DA30007DF226 /* LandmarkRow.swift in Sources */,
@@ -456,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = KP734X95SE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,6 +488,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = KP734X95SE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -491,6 +518,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
